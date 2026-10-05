@@ -11,7 +11,7 @@ Shared across all Chronox2290 repos. Repo-specific rules elsewhere in this file 
 
 ### Subagents
 - Keep the main context clean. Big reads, research and parallel analysis go to subagents, one task each, returning a short summary.
-- The expensive model plans and reviews. Fable, Sonnet or Haiku does the typing from a self-contained brief: goal, files allowed, definition of done, what to report back.
+- The expensive model (Fable or Opus) plans and reviews. Sonnet or Haiku does the typing from a self-contained brief: goal, files allowed, definition of done, what to report back.
 
 ### Self-improvement loop
 - Session start: read `tasks/lessons.md`.
